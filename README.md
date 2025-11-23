@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Casanova Player](<img width="1152" height="688" alt="casa_main" src="https://github.com/user-attachments/assets/cc22af82-3f9b-485d-aa9e-5e83b9cb0299" />)
+![Casanova Player](https://github.com/user-attachments/assets/cc22af82-3f9b-485d-aa9e-5e83b9cb0299)
 
 **Your Music, Everywhere**
 
@@ -60,7 +60,7 @@ A modern, feature-rich music player built with Python, CustomTkinter, and Pygame
 
 | Main Interface | YouTube Search | Playlist View |
 |:--------------:|:--------------:|:-------------:|
-| ![Main](<img width="1152" height="688" alt="casa_main" src="https://github.com/user-attachments/assets/ba63ea18-d887-430a-8b36-7c18d85545c5" />) | ![Search](<img width="1148" height="757" alt="casa_search" src="https://github.com/user-attachments/assets/b7be9b3a-d907-496c-a39b-e6ae5d1ca334" />) | ![Playlist](<img width="432" height="523" alt="casa_playlist" src="https://github.com/user-attachments/assets/8877c448-5181-4f0d-b451-ce9daf97f143" />) |
+| ![Main](https://github.com/user-attachments/assets/ba63ea18-d887-430a-8b36-7c18d85545c5) | ![Search](https://github.com/user-attachments/assets/b7be9b3a-d907-496c-a39b-e6ae5d1ca334) | ![Playlist](https://github.com/user-attachments/assets/8877c448-5181-4f0d-b451-ce9daf97f143) |
 
 </div>
 
