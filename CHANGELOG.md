@@ -5,7 +5,7 @@ All notable changes to Casanova Player will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2025-01-XX
+## [1.0.0] - 2025-11-2025
 
 ### Added
 - 🎵 Multi-format audio playback (MP3, FLAC, WAV, OGG, M4A, AAC)
@@ -49,32 +49,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mini player mode
 - System media controls integration
 - Cross-platform support (Linux, macOS)
-
----
-
-## Release Notes Template (for future releases)
-
-## [X.Y.Z] - YYYY-MM-DD
-
-### Added
-- New features
-
-### Changed
-- Changes in existing functionality
-
-### Deprecated
-- Soon-to-be removed features
-
-### Removed
-- Removed features
-
-### Fixed
-- Bug fixes
-
-### Security
-- Security improvements
-
----
-
 [1.0.0]: https://github.com/yourusername/casanova-player/releases/tag/v1.0.0
 [Unreleased]: https://github.com/yourusername/casanova-player/compare/v1.0.0...HEAD
