@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Casanova Player](https://via.placeholder.com/800x400/0d1117/3fb950?text=Casanova+Player+Screenshot)
+![Casanova Player](https://github.com/user-attachments/assets/cc22af82-3f9b-485d-aa9e-5e83b9cb0299)
 
 **Your Music, Everywhere**
 
@@ -10,7 +10,7 @@ A modern, feature-rich music player built with Python, CustomTkinter, and Pygame
 
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/yourusername/casanova-player/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/lunatic-7/casanova-player/releases)
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Building](#-building-from-source) • [Contributing](#-contributing)
 
@@ -60,7 +60,7 @@ A modern, feature-rich music player built with Python, CustomTkinter, and Pygame
 
 | Main Interface | YouTube Search | Playlist View |
 |:--------------:|:--------------:|:-------------:|
-| ![Main](https://via.placeholder.com/280x200/161b22/3fb950?text=Main+Player) | ![Search](https://via.placeholder.com/280x200/161b22/3fb950?text=YouTube+Search) | ![Playlist](https://via.placeholder.com/280x200/161b22/3fb950?text=Playlist) |
+| ![Main](https://github.com/user-attachments/assets/ba63ea18-d887-430a-8b36-7c18d85545c5) | ![Search](https://github.com/user-attachments/assets/b7be9b3a-d907-496c-a39b-e6ae5d1ca334) | ![Playlist](https://github.com/user-attachments/assets/8877c448-5181-4f0d-b451-ce9daf97f143) |
 
 </div>
 
@@ -70,7 +70,7 @@ A modern, feature-rich music player built with Python, CustomTkinter, and Pygame
 
 ### Option 1: Windows Installer (Recommended)
 
-1. Download the latest `CasanovaPlayer_Setup_v1.0.exe` from [Releases](https://github.com/yourusername/casanova-player/releases)
+1. Download the latest `CasanovaPlayer_Setup_v1.0.exe` from [Releases](https://github.com/lunatic-7/casanova-player/releases)
 2. Run the installer
 3. Launch from Start Menu or Desktop shortcut
 
@@ -78,7 +78,7 @@ A modern, feature-rich music player built with Python, CustomTkinter, and Pygame
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/casanova-player.git
+git clone https://github.com/lunatic-7/casanova-player.git
 cd casanova-player
 
 # Create virtual environment
@@ -226,7 +226,7 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Fork the repo and clone your fork
-git clone https://github.com/YOUR_USERNAME/casanova-player.git
+git clone https://github.com/lunatic-7/casanova-player.git
 
 # Create a feature branch
 git checkout -b feature/amazing-feature
@@ -279,9 +279,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Your Name** - [@yourtwitter](https://twitter.com/yourtwitter)
+**Your Name** - [@wasifnadeem7](https://www.linkedin.com/in/wasifnadeem7/)
 
-Project Link: [https://github.com/yourusername/casanova-player](https://github.com/yourusername/casanova-player)
+Project Link: [https://github.com/lunatic-7/casanova-player](https://github.com/lunatic-7/casanova-player)
 
 ---
 
