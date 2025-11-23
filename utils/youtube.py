@@ -7,7 +7,9 @@ import re
 from typing import Callable, Optional
 import yt_dlp
 
+from utils.paths import get_ffmpeg_path
 from config.settings import MUSIC_DOWNLOAD_FOLDER, MAX_SEARCH_RESULTS
+
 
 # Ensure download folder exists
 os.makedirs(MUSIC_DOWNLOAD_FOLDER, exist_ok=True)
@@ -109,6 +111,9 @@ def download_audio(
                     if on_progress:
                         on_progress(90, "Converting to MP3...")
             
+            # Use my local ffmpeg
+            ffmpeg_path = get_ffmpeg_path()
+
             ydl_opts = {
                 'format': 'bestaudio/best',
                 'postprocessors': [{
@@ -120,7 +125,11 @@ def download_audio(
                 'quiet': True,
                 'no_warnings': True,
                 'progress_hooks': [progress_hook],
+
+                # Bug Fix
+                'ffmpeg_location': ffmpeg_path,
             }
+
             
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 ydl.download([url])
