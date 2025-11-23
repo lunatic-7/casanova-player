@@ -49,5 +49,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mini player mode
 - System media controls integration
 - Cross-platform support (Linux, macOS)
-[1.0.0]: https://github.com/yourusername/casanova-player/releases/tag/v1.0.0
-[Unreleased]: https://github.com/yourusername/casanova-player/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/lunatic-7/casanova-player/releases/tag/v1.0.0
