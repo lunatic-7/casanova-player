@@ -25,9 +25,13 @@ a = Analysis(
         (ctk_path, 'customtkinter'),
     ],
     hiddenimports=[
+        # HTTP
+        'requests',
         # Tkinter
         'PIL._tkinter_finder',
         'tkinter',
+        'tkinter.filedialog',
+        'tkinter.messagebox',
         # CustomTkinter
         'customtkinter',
         # Audio libraries
@@ -36,19 +40,40 @@ a = Analysis(
         'mutagen',
         'mutagen.mp3',
         'mutagen.id3',
+        'mutagen.id3._frames',
+        'mutagen.id3._specs',
         'mutagen.flac',
         'mutagen.oggvorbis',
         'mutagen.mp4',
         'mutagen.easyid3',
+        'mutagen.easymp4',
         'pydub',
         'pydub.audio_segment',
+        'pydub.utils',
+        'pydub.effects',
+        'pydub.playback',
         # YouTube downloader
         'yt_dlp',
-        # Utilities
+        'yt_dlp.extractor',
+        'yt_dlp.downloader',
+        # NumPy (critical for waveform!)
         'numpy',
+        'numpy.core',
+        'numpy.core._multiarray_umath',
+        'numpy.fft',
+        'numpy.random',
+        # PIL/Pillow
         'PIL',
         'PIL.Image',
         'PIL.ImageTk',
+        'PIL.ImageDraw',
+        'PIL.ImageFont',
+        # Standard library
+        'threading',
+        'queue',
+        'json',
+        'urllib',
+        'urllib.request',
     ],
     hookspath=[],
     hooksconfig={},
@@ -59,6 +84,8 @@ a = Analysis(
         'pandas',
         'notebook',
         'jupyter',
+        'IPython',
+        'setuptools',
     ],
     win_no_prefer_redirects=False,
     win_private_assemblies=False,
@@ -85,7 +112,6 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon='assets/icons/app.ico',
-    version='version_info.txt',  # Optional: version info
 )
 
 coll = COLLECT(

@@ -1,6 +1,9 @@
 altgraph==0.17.4
+certifi==2025.11.12
+charset-normalizer==3.4.4
 customtkinter==5.2.2
 darkdetect==0.8.0
+idna==3.11
 mutagen==1.47.0
 numpy==2.3.5
 packaging==25.0
@@ -11,5 +14,7 @@ pygame==2.6.1
 pyinstaller==6.16.0
 pyinstaller-hooks-contrib==2025.9
 pywin32-ctypes==0.2.3
+requests==2.32.5
 setuptools==80.9.0
-watchdog==6.0.0
+urllib3==2.5.0
+yt-dlp==2025.11.12
